@@ -16,8 +16,8 @@ This is a full-stack authentication system with a React frontend and a Node.js/E
 ## Getting Started
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/auth-system.git
-   cd auth-system
+   git clone https://github.com/jaybhavsar2912/Advanced-User-Authentication-System
+   cd Advanced-User-Authentication-System
    ```
 
 2. **Set Up Frontend**:
@@ -27,9 +27,9 @@ This is a full-stack authentication system with a React frontend and a Node.js/E
    See [backend/README.md](backend/README.md) for setup instructions, including MongoDB configuration and setting `MONGO_URI` and `JWT_SECRET`.
 
 4. **Run the Application**:
-   - Start the backend: `cd backend && npm start`
-   - Start the frontend: `cd frontend && npm run dev`
-   - Access the app at `http://localhost:3000`.
+   - Start the backend: `cd advanced auth backend && npm start`
+   - Start the frontend: `cd advanced auth frontend && npm run dev`
+   - Access the app at `http://localhost:5173`.
 
 ## Prerequisites
 - **Node.js**: Version 16.x or higher.
@@ -38,10 +38,7 @@ This is a full-stack authentication system with a React frontend and a Node.js/E
 
 ## Contributing
 1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature-name`).
+2. Create a feature branch (`git checkout -b main`).
 3. Commit changes (`git commit -m "Add feature"`).
-4. Push to the branch (`git push origin feature-name`).
+4. Push to the branch (`git push origin main`).
 5. Open a pull request.
-
-## License
-MIT License. See [LICENSE](LICENSE) for details.
