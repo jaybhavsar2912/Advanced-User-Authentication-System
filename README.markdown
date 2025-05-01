@@ -24,7 +24,7 @@ This is a full-stack authentication system with a React frontend and a Node.js/E
    See [frontend/README.md](frontend/README.md) for setup instructions, including installing dependencies and setting `VITE_API_URL`.
 
 3. **Set Up Backend**:
-   See [backend/README.md](backend/README.md) for setup instructions, including MongoDB configuration and setting `MONGO_URI` and `JWT_SECRET`.
+   See [backend/README.md](backend/README.md) for setup instructions, including MongoDB configuration and setting `MongoURL` and `JWT_SECRET`.
 
 4. **Run the Application**:
    - Start the backend: `cd advanced auth backend && npm start`
