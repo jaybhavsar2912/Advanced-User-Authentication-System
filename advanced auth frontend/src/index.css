@@ -1,0 +1,44 @@
+/* Global styles with Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #2563eb; /* Blue */
+  --primary-dark: #1e40af;
+  --secondary: #10b981; /* Green */
+  --background: #f9fafb; /* Light gray */
+  --text: #1f2937; /* Dark gray */
+  --error: #ef4444; /* Red */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.card {
+  @apply bg-white rounded-xl shadow-lg p-6 transition-all duration-300;
+}
+
+.btn-primary {
+  @apply bg-[var(--primary)] text-white px-4 py-2 rounded-lg hover:bg-[var(--primary-dark)] transition-colors duration-200 disabled:bg-gray-400 disabled:cursor-not-allowed;
+}
+
+.btn-secondary {
+  @apply bg-gray-200 text-[var(--text)] px-4 py-2 rounded-lg hover:bg-gray-300 transition-colors duration-200;
+}
+
+.input {
+  @apply w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--primary)] transition-all duration-200;
+}
+
+.error {
+  @apply text-[var(--error)] text-sm mt-1;
+}
+
+/* Smooth transitions for hover and focus */
+a, button {
+  @apply transition-all duration-200;
+}
